@@ -5,6 +5,7 @@ html {
 body {
   font-size: 18px;
   padding: 0;
+  margin: 0;
 }
 
 p {
@@ -28,6 +29,9 @@ div.img {
 #main {
   min-width: 100%;
   overflow: inherit;
+  border-bottom: 30px;
+  border-bottom-color: #F5F2BA;
+  border-bottom-style: inset;
 }
 
 #topnav {
@@ -39,4 +43,12 @@ div.img {
 #topnav a {
   font-size: 52px;
   padding: 100% 10px;
+}
+
+#topnav a:hover {
+
+}
+
+#topnav a#active {
+  background-color: #151515;
 }
