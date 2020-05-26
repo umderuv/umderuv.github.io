@@ -30,14 +30,13 @@ div.img {
   overflow: inherit;
 }
 
+#topnav {
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
 #topnav a {
-  font-size: 54px;
-}
-
-#topnav a:hover {
-  background-color: #151515;
-}
-
-#topnav a#active {
-  background-color: #151515;
+  font-size: 52px;
+  padding: 100% 10px;
 }
